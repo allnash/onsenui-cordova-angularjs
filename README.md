@@ -8,7 +8,7 @@ Onsen UI + AngularJS scaffold for mobile applications with Apache Cordova
  * Node.js - [Install Node.js](http://nodejs.org)
  * Cordova - Install by `npm install -g cordova`
  * Angular JS version 1.7.x
- * Onsen UI - Angular JS 1.x
+ * Onsen UI - Angular JS 1.ximages
 
 ## Development Instructions
 
@@ -27,5 +27,5 @@ Onsen UI + AngularJS scaffold for mobile applications with Apache Cordova
     
 4. Tada!
 
-![iPhone X simulator screenshot](images/screeshot.png?raw=true "Tada!")
+![iPhone X simulator screenshot](https://raw.githubusercontent.com/allnash/onsenui-cordova-angularjs/master/images/screenshot.png)
 
