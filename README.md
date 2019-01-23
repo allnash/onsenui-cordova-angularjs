@@ -22,8 +22,10 @@ Onsen UI + AngularJS scaffold for mobile applications with Apache Cordova
 
 3. Run `cordova platform add <ios|android>` and run the web server
 
+    ```
     $ cordova platform add ios
     $ ./ios_emulate.sh
+    ```
     
 4. Tada!
 
