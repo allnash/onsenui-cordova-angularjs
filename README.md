@@ -20,7 +20,7 @@ Onsen UI + AngularJS scaffold for mobile applications with Apache Cordova
 
     $ npm install -g cordova
 
-3. Run `cordova plugin update` and run the web server
+3. Run `cordova platform add <ios|android>` and run the web server
 
     $ cordova platform add ios
     $ ./ios_emulate.sh
