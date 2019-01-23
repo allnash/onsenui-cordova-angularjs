@@ -24,3 +24,8 @@ Onsen UI + AngularJS scaffold for mobile applications with Apache Cordova
 
     $ cordova platform add ios
     $ ./ios_emulate.sh
+    
+4. Tada!
+
+![iPhone X simulator screenshot](images/screeshot.png?raw=true "Tada!")
+
