@@ -27,5 +27,5 @@ Onsen UI + AngularJS scaffold for mobile applications with Apache Cordova
     
 4. Tada!
 
-![iPhone X simulator screenshot](https://raw.githubusercontent.com/allnash/onsenui-cordova-angularjs/master/images/screenshot.png)
+![iPhone X simulator screenshot](https://raw.githubusercontent.com/allnash/onsenui-cordova-angularjs/master/images/screenshot.png | width=100))
 
