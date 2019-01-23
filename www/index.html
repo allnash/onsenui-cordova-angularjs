@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="my-app">
+<head>
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src * gap://ready file:; style-src 'self' 'unsafe-inline'; img-src * 'self' data:; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name=”viewport” content=”initial-scale=1, width=device-width, height=device-height, viewport-fit=cover”>
+    <link rel="stylesheet" href="css/onsenui.css"/>
+    <link rel="stylesheet" href="css/onsen-css-components.css"/>
+    <link rel="stylesheet" href="css/custom.css"/>
+    <script src="js/angular.min.js"></script>
+    <script src="js/onsenui.min.js"></script>
+    <script src="js/angularjs-onsenui.min.js"></script>
+</head>
+<body class="selector">
+<ons-page ng-controller="PageController">
+    <ons-toolbar>
+        <div class="center">Title</div>
+    </ons-toolbar>
+    <p style="text-align: center">
+        <ons-button ng-click="alert('Hello World!')">
+            Click me!
+        </ons-button>
+    </p>
+</ons-page>
+<script>
+    var module = angular.module('my-app', ['onsen']);
+    module.controller('PageController', function ($scope) {
+        $scope.alert = function (message) {
+            ons.notification.alert(message);
+        };
+    });
+</script>
+<script src="cordova.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
