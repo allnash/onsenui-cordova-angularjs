@@ -9,3 +9,6 @@
 # Optional to ignore plugin Git clones
 /plugins
 /node_modules
+
+# IDEA modules
+.idea
