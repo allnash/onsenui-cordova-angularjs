@@ -1,6 +1,6 @@
 {
     "name": "xyz.gadre.onsenui-angularjs",
-    "displayName": "OnsenUI-Angular",
+    "displayName": "OnsenUI-AngularJS",
     "version": "1.0.0",
     "description": "Onsen UI + AngularJS scaffold for mobile applications with Apache Cordova.",
     "main": "index.js",
